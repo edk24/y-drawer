@@ -2,6 +2,12 @@
 
 > 抽屉组件，仅支持 Vue3
 
+:::tip Tip
+
+[图2] 效果参考插件 [y-user-profile 微信小程序完善用户信息](https://ext.dcloud.net.cn/plugin?id=19510)
+
+:::
+
 ## Example
 
 > 示例
@@ -57,6 +63,12 @@ setTimeout(() => {
 | name | 作用   |
 | ---- | ---- |
 | default | 自定义抽屉内容 |
+
+## 常见问题
+
+### 滚动视图问题
+
+> 兼容性取舍, 术业有专攻, 弹出层插槽里套个 `scroll-view` 实现
 
 ## End
 
