@@ -80,5 +80,5 @@ const classes = computed(() => {
 
 
 <style lang="scss">
-@use './y-drawer.scss' as *;
+@import './y-drawer.scss';
 </style>
